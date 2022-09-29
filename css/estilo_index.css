@@ -1,0 +1,149 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500&family=Press+Start+2P&display=swap");
+
+/*
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+
+    color: greenyellow;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+}
+
+.teste {
+    background-color: #ff0000;
+}
+
+#transforme {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+
+    margin: 20px;
+    padding: 10px;
+
+    border-radius: 20px;
+    border: 3px solid rgb(61, 61, 61);
+
+    background-color: rgb(69, 69, 69);
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+#transforme div{
+    width: 100%;
+    text-align: left;
+}
+
+#transforme input{
+    width: 35px;
+}
+
+#console {
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+#console #msg{
+    min-height: 50px;
+
+    padding: 0px 30px;
+
+    border-radius: 20px;
+    border: 3px solid rgb(61, 61, 61);
+
+    background-color: rgb(69, 69, 69);
+
+    line-height: 0px;
+
+    display: flex;
+    align-items: center;
+}
+
+#console .oculto {
+    opacity: 0;
+}
+
+#console .visivel {
+    opacity: 1;
+}
+
+#adicionar {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    width: 50px;
+    height: 50px;
+
+    margin: 10px;
+    margin-bottom: 125px;
+
+    border: 3px solid rgb(61, 61, 61);
+    border-radius: 50%;
+
+    background: greenyellow;
+    color: white;
+
+    text-align: center;
+    font-size: 50px;
+    line-height: 0px;
+}
+
+#adicionar:hover {
+    background: rgb(66, 110, 0);
+}
+
+#amostras {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+
+    margin: 10px;
+    border-radius: 20px;
+    border: 3px solid rgb(61, 61, 61);
+
+    background-color: rgb(69, 69, 69);
+
+    display: flex;
+}
+
+#amostras .modelo {
+    width: 85px;
+    height: 85px;
+
+    margin: 5px;
+    border-radius: 20px;
+    border: 3px solid rgb(61, 61, 61);
+
+    background-color: rgb(69, 69, 69);
+}
+
+#amostras .modelo:hover {
+    border-color: white;
+}
+
+#amostras .modelo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
