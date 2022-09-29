@@ -511,15 +511,15 @@
             }
         
         <?php
-            include('./lib.php');
-            $con = new Conexao("localhost", "root", "admin", "db_ponto");
-            $con->conectar();
+            // include('./lib.php');
+            // $con = new Conexao("localhost", "root", "admin", "db_ponto");
+            // $con->conectar();
 
-            $linhas = $con->query("SELECT nome, tipo, posicao, rotacao, cor FROM db_pontos.objeto WHERE idPai = 0;");
+            // $linhas = $con->query("SELECT nome, tipo, posicao, rotacao, cor FROM db_pontos.objeto WHERE idPai = 0;");
 
-            for ($i=0; $i < count($linhas); $i++) { 
-                echo "carregarModelo('".$linhas[$i]['nome']."', '".$linhas[$i]['tipo']."', '".$linhas[$i]['posicao']."', '".$linhas[$i]['rotacao']."', '".$linhas[$i]['cor']."');";
-            }
+            // for ($i=0; $i < count($linhas); $i++) { 
+            //     echo "carregarModelo('".$linhas[$i]['nome']."', '".$linhas[$i]['tipo']."', '".$linhas[$i]['posicao']."', '".$linhas[$i]['rotacao']."', '".$linhas[$i]['cor']."');";
+            // }
         ?>
         </script>
     </body>
